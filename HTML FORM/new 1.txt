@@ -1,0 +1,63 @@
+<Doctype Html>
+ <html>    
+    <head>    
+        <title>Registration Form</title>    
+    </head>    
+    <body>    
+	 <body style="background-color:brown;">
+ <link href = "registration.css" type = "text/css" rel = "stylesheet" />  
+        
+ <h2>Sign Up</h2>    
+        
+  <form name = "form1" action="modified.php" method = "post" enctype = "multipart/form-data" >    
+             
+ <div class = "container">    
+                
+ <div class = "form_group">    
+                    
+<label>First Name:</label>    
+                    
+<br>
+ <input type = "text" name = "fname" value = "" required/>    
+                    
+<br>
+  </div>    
+                
+  <div class = "form_group">    
+                    
+ <label>Middle Name:</label>    
+                    
+<br>
+ <input type = "text" name = "mname" value = "" required />    
+                    
+<br>
+  </div>    
+                
+    <div class = "form_group">    
+                    
+  <label>Last Name:</label>    
+                    
+<br>
+  <input type = "text" name = "lname" value = "" required/>    
+                    
+<br>
+  </div>    
+                
+  <div class = "form_group">    
+                    
+   <label>Password:</label>    
+                    
+<br>
+   <input type = "password" name = "pwd" value = "" required/>    
+       
+<br>       
+
+ <br>    <input type="submit" value=submit>
+
+<br>       
+
+   </div>    
+  </div>    
+   </form>    
+  </body>    
+</html> 
